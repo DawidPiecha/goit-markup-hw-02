@@ -57,3 +57,52 @@ body {
 .top-contacts .contact-link:focus {
   color: var(--object-primary-background-color);
 }
+.top-container {
+  background-color: var(--page-secondary-background-color);
+}
+.top-container-text {
+  color: var(--text-tertiary-color);
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.top-container-button {
+  background-color: var(--object-primary-background-color);
+  color: var(--object-secondary-background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.85;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+.advantages {
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.topic {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-primary-color);
+}
+.description {
+  color: var(--text-secondary-color);
+  line-height: 1.71;
+}
+.what-we-do {
+  color: var(--text-primary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
