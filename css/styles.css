@@ -1,4 +1,59 @@
+:root {
+  --page-primary-background-color: #e5e5e5;
+  --page-secondary-background-color: #2f303a;
+  --page-tertiary-background-color: #f5f4fa;
+  --object-primary-background-color: #2196f3;
+  --object-secondary-background-color: #ffffff;
+  --border-color: #eeeeee;
+  --text-primary-color: #212121;
+  --text-secondary-color: #757575;
+  --text-tertiary-color: #ffffff;
+  --text-quaternary-color: #000000;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--text-primary-color);
+  background-color: var(--page-primary-background-color);
+}
+.top-menu {
+  background-color: var(--object-secondary-background-color);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--text-quaternary-color);
+  text-decoration: none;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.first-logo-part {
+  color: var(--object-primary-background-color);
+}
+.navigation {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.link-menu .link {
+  text-decoration: none;
+  color: var(--text-primary-color);
+}
+.link-menu .link:hover,
+.link-menu .link:focus {
+  color: var(--object-primary-background-color);
+}
+
+.top-contacts .contact-link {
+  color: var(--text-secondary-color);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.top-contacts .contact-link:hover,
+.top-contacts .contact-link:focus {
+  color: var(--object-primary-background-color);
 }
