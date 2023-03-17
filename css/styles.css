@@ -58,6 +58,7 @@ body {
 .top-contacts .contact-link:focus {
   color: var(--object-primary-background-color);
 }
+
 .top-container {
   background-color: var(--page-secondary-background-color);
 }
@@ -155,9 +156,7 @@ body {
 .lower-contacts .lower-link:focus {
   color: var(--text-tertiary-color);
 }
-.upper-section .lower-section {
-  background-color: var(--page-primary-background-color);
-}
+
 .portfolio-button {
   background-color: var(--page-tertiary-background-color);
   color: var(--text-primary-color);
