@@ -175,7 +175,25 @@ body {
   background-color: var(--object-primary-background-color);
   color: var(--object-secondary-background-color);
 }
-.lower-section-item {
+.portfolio-lower-section-item {
   background-color: var(--text-tertiary-color);
   border: 1px solid var(--border-color);
+}
+.portfolio-lower-section-item-heading {
+  color: var(--text-primary-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-lower-section-item-description {
+  color: var(--text-secondary-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/*dodałem bo nie mogłem patrzeć na te kropki :)*/
+ul {
+  list-style-type: none;
 }
