@@ -9,7 +9,11 @@
   --text-secondary-color: #757575;
   --text-tertiary-color: #ffffff;
   --text-quaternary-color: #000000;
-  --alpha-color: rgba(255, 255, 255, 0.6);
+  --alpha-color: #ffffff99;
+  --primary-box-shadow-color: #00000026;
+  --secondary-box-shadow-color: #0000001f;
+  --tertiary-box-shadow-color: #00000024;
+  --quarternary-box-shadow-color: #00000033;
 }
 
 body {
@@ -53,6 +57,7 @@ body {
   line-height: 1.14;
   font-weight: 500;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .top-contacts .contact-link:hover,
 .top-contacts .contact-link:focus {
@@ -65,7 +70,7 @@ body {
 .top-container-text {
   color: var(--text-tertiary-color);
   font-size: 44px;
-  font-weight: 500;
+  font-weight: 900;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -74,7 +79,7 @@ body {
 .top-container-button {
   background-color: var(--object-primary-background-color);
   color: var(--object-secondary-background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--primary-box-shadow-color);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
@@ -91,7 +96,6 @@ body {
   font-size: 14px;
 }
 .topic {
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--text-primary-color);
@@ -102,7 +106,6 @@ body {
 }
 .what-we-do {
   color: var(--text-primary-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -113,7 +116,6 @@ body {
 }
 .teammates-header {
   color: var(--text-primary-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -121,8 +123,9 @@ body {
 }
 .teammates-item {
   background-color: var(--object-secondary-background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px var(--secondary-box-shadow-color),
+    0px 1px 1px var(--tertiary-box-shadow-color),
+    0px 2px 1px var(--quarternary-box-shadow-color);
   border-radius: 0px 0px 4px 4px;
 }
 .teammates-item-name {
@@ -142,6 +145,7 @@ body {
 }
 .footer {
   background-color: var(--page-secondary-background-color);
+  text-decoration: none;
 }
 .second-logo-part {
   color: var(--text-tertiary-color);
@@ -151,6 +155,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .lower-contacts .lower-link:hover,
 .lower-contacts .lower-link:focus {
@@ -160,7 +165,7 @@ body {
 .portfolio-button {
   background-color: var(--page-tertiary-background-color);
   color: var(--text-primary-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--primary-box-shadow-color);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -180,7 +185,6 @@ body {
 }
 .portfolio-lower-section-item-heading {
   color: var(--text-primary-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
